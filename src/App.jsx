@@ -1,9 +1,6 @@
 import { useState, useEffect, createContext } from 'react'
 import './App.css'
 
- 
-
-
 function App() {
   const  [number, setNumber ] = useState (parseInt(window.localStorage.getItem("App")))
 
